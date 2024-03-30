@@ -1,0 +1,48 @@
+form {
+    text-align: center;
+}
+.container{
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+
+.SearchOptions{
+    position: relative;
+    display: inline-block;
+    right: 100;
+    top: 0;
+}
+
+.SearchButton {
+    text-align: center;
+    color: black; 
+    border-radius: 10%;
+    background-color: rgb(78, 78, 84);
+    border-color: lightgray;
+    padding: 7px;
+    margin: 10px;
+    object-position: center;
+}
+.input{
+    display: block;
+    margin: auto;
+    width: 600px;
+    padding: 8px 12px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+}
+.input:focus{
+    border-color: #4285f4;
+    box-shadow: 0 0 0 2px #4285f4;
+}
+#googlelogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+    width: 270px;
+} 

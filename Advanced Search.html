@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Search</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <style>
+            .adv_words{
+                font-family: 'Times New Roman', Times, serif;
+                padding-left: 10px;
+                font-size: 100%;
+                text-align : left
+            }
+
+            .inputbox{
+                width: 400px;
+                margin: 10px;
+                margin-right: 0;
+                padding: 3px;
+                font-size: 12px;
+                margin-left: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <img src="https://logos-world.net/wp-content/uploads/2020/09/Google-Logo-2015-present.jpg" style="margin-left: 5px; width: 85px;">
+        </div>
+
+        <div>
+            <h1 id="AdvancedSearch" style="color: red; font-size: 19px; margin-left: 30px; padding-top: 10px;" > Advanced Search </h1>
+        </div>
+		<div class="container">
+        	<a class="btn btn-primary" style="margin-left: 20px; font-size: 65%; top: 5px;"  href="Index.html"> Google Search</a>
+		</div>
+        <hr>
+        <div style="margin:20px; margin-top: 40px;">
+            <div>
+                <p1 style="margin-left: 10px;">Find pages with...</p1>
+            </div>
+            <div>
+                    <form action="https://www.google.com/search"> 
+                        <table>
+                            <tr>
+                                <td class="adv_words">
+                                        All these words :
+                                </td>
+                                <td>
+                                    <input class="inputbox" type="text" name="as_q">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="adv_words" >
+                                    This exact word or phrase :
+                                </td>
+                                <td>
+                                    <input class="inputbox" type="text" name="as_epq">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="adv_words">
+                                    Any of these words :
+                                </td>
+                                <td>
+                                    <input class="inputbox" type="text" name="as_oq">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="adv_words">
+                                    None of these words : 
+                                </td>
+
+                                <td>
+                                    <input class="inputbox" type="text" name="as_eq">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <input class="btn btn-primary" type="submit" value="Advanced Search" style=" border: 0px; font-size: small; color: white; margin-left: 292px; margin-top: 20px;">
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+            </div>
+    </body>
+</html>
